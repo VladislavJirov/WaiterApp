@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<navigationModel
+  ns = "http://schemas.android.com?import=com.android.navigation.*">
+  <locations  
+    class = "java.util.ArrayList">
+    <entry>
+      <key      
+        class = "com.android.navigation.ActivityState"      
+        className = "com.mycompany.myapp.FreeTables">
+        <location        
+          id = "point0"        
+          x = "0"        
+          y = "0"/>
+      </key>
+      <value      
+        x = "480"      
+        y = "160"      
+        class = "com.android.navigation.Point"/>
+    </entry>
+    <entry>
+      <key      
+        class = "com.android.navigation.ActivityState"      
+        className = "com.noldorknight.waiterapp.MainMenu">
+        <location        
+          idref = "point0"/>
+      </key>
+      <value      
+        x = "2080"      
+        y = "320"      
+        class = "com.android.navigation.Point"/>
+    </entry>
+    <entry>
+      <key      
+        class = "com.android.navigation.MenuState"      
+        xmlResourceName = "main_menu">
+        <location        
+          idref = "point0"/>
+      </key>
+      <value      
+        x = "3360"      
+        y = "1280"      
+        class = "com.android.navigation.Point"/>
+    </entry>
+    <entry>
+      <key      
+        class = "com.android.navigation.MenuState"      
+        xmlResourceName = "free_tables">
+        <location        
+          idref = "point0"/>
+      </key>
+      <value      
+        x = "2024"      
+        y = "100"      
+        class = "com.android.navigation.Point"/>
+    </entry>
+    <entry>
+      <key      
+        class = "com.android.navigation.MenuState"      
+        xmlResourceName = "login">
+        <location        
+          idref = "point0"/>
+      </key>
+      <value      
+        x = "2560"      
+        y = "1440"      
+        class = "com.android.navigation.Point"/>
+    </entry>
+    <entry>
+      <key      
+        class = "com.android.navigation.ActivityState"      
+        className = "com.noldorknight.waiterapp.Login">
+        <location        
+          idref = "point0"/>
+      </key>
+      <value      
+        x = "640"      
+        y = "1120"      
+        class = "com.android.navigation.Point"/>
+    </entry>
+  </locations>
+</navigationModel>

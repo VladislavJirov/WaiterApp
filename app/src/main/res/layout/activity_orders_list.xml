@@ -1,0 +1,71 @@
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.noldorknight.waiterapp.OrdersList"
+    android:background="@drawable/outdoor_restaurant">
+
+    TextView
+        android:text="@string/hello_world"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Medium Text"
+        android:id="@+id/OrdLlistoforders"
+        android:layout_row="0"
+        android:layout_column="0"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Medium Text"
+        android:id="@+id/OrdLoredercontent"
+        android:layout_row="0"
+        android:layout_column="1"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textSize="20dp" />
+
+    <ListView
+        android:layout_width="403dp"
+        android:layout_height="354dp"
+        android:id="@+id/AOlist"
+        android:layout_row="1"
+        android:layout_column="0" />
+
+    <ListView
+        android:layout_width="504dp"
+        android:layout_height="354dp"
+        android:id="@+id/AOcontains"
+        android:layout_row="1"
+        android:layout_column="1" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Назад"
+        android:id="@+id/OrdLBack"
+        android:layout_row="2"
+        android:layout_column="0" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Дополнить"
+        android:id="@+id/OrdLEdit"
+        android:layout_row="2"
+        android:layout_column="1"
+        android:layout_gravity="right" />
+</GridLayout>
